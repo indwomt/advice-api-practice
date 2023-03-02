@@ -58,13 +58,21 @@ hr{
     width: 100px
 }
 
-button {
+.button {
     width:60px;
     height:60px;
     border-radius: 50%;
-    /* transform: translateY(80px); */
-    background-color:hsl(150, 100%, 66%)
+    transform: translateY(150px);
+    background-color:hsl(150, 100%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
 }
 
+.button:hover {
+    -webkit-box-shadow: 0px 1px 22px 7px rgba(44,255,54,0.75); 
+box-shadow: 0px 1px 22px 7px rgba(44,255,54,0.75);
+}
 
 

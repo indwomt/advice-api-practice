@@ -3,7 +3,7 @@ console.log('hello')
 let adviceURL = 'https://api.adviceslip.com/advice'
 let adviceContent = $('.advice-content')
 let adviceNumber = $('.advice-number')
-let button = $('.next-button')
+let button = $('.button')
 
 function getAdvice() {
     fetch(adviceURL)
@@ -22,4 +22,4 @@ function getAdvice() {
 
 button.addEventListener('click', getAdvice())
 
-getAdvice()
+// getAdvice()
